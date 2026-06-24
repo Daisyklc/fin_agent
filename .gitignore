@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 密钥 / 本地配置（切勿提交）
+.env
+config/secret.py
+config/local_settings.py
+
+# 原始数据集（体量大；competition 提供，按需自行放置）
+raw/
+
+# 解析产物（可由 `python -m script.parse_docs` 重新生成）
+processed_data/
+
+# 打包产物
+submission.zip
+
+# 体量较大的赛题页面快照
+*.html
+算法大赛-天池大赛-阿里云的赛制_files/
+
+# 运行控制台日志（保留 logs 下的 *.json / *.md 实验记录）
+logs/*.log

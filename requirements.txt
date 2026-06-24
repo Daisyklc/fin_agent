@@ -1,0 +1,15 @@
+# 推理 / API（Qwen 走 OpenAI 兼容端点）
+openai>=1.40.0
+
+# PDF / 文档解析（预处理阶段允许非 Qwen 工具）
+pdfplumber>=0.11.0
+pypdf>=4.2.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# 检索（禁用 embedding，使用词面/BM25）
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# 工具
+tqdm>=4.66.0
