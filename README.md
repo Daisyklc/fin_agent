@@ -66,15 +66,16 @@ python -m script.run                              # 全部 A 榜 → answer.csv
 - [x] M2 BM25 + 金融术语加权检索（dry-run 100 题 0 漏召回）
 - [x] M3 推理流水线打通，全量实跑：100/100，总 Token 635K，TokenScore 0.873
 - [x] M4 均衡检索（多文档题保证每个文档都有证据）+ 全量重跑（13 题答案变化）
-- [~] M5 错题分析与 token 压缩：已加自洽验证环节（`--verify`），筛高风险题；量化准确率仍需 gold
+- [~] M5 错题分析与 token 压缩：选择性自洽验证（`--verify-mode selective`）+ 检索 query 增强 + 分领域 prompt 加固
 - [x] M6 B 榜全库检索适配：两阶段（文档召回→段落），doc recall@8 全命中率 0.80
 
 ## 自洽验证（`python -m script.run --verify`）
 每题在初答后再做一次独立复核（critic），逐选项核对证据：
+- **`--verify-mode selective`（默认）**：仅对高风险题复核（多选、判断、保险计算/推理、财报/合同跨文档单选、研报数据核验），约 97/100 题。
+- **`--verify-mode all`**：每题复核，token 约翻倍（100 题约 1.3M，TokenScore≈0.74）。
 - 复核与初答**不一致**或**低置信** → 标记为高风险题，写入 `logs/highrisk_report.md`（含 初答→终答、置信度、复核要点）。
-- 不一致时默认采用复核答案为终值。
-- 代价：每题多一次调用，token 约翻倍（100 题约 1.3M，TokenScore≈0.74）。建议先用 `--qids`/`--limit` 小规模试，或对 baseline 已知薄弱领域开启。
-- 注意：单次复核存在一定确认偏差；若需更强不确定性识别，可改用多次采样(temperature>0)多数表决。
+- 不一致时默认采用复核答案为终值；复核 prompt 要求 disagree 时必须给出不同于初答的正确选项。
+- 建议：提交前用 selective verify 平衡准确率与 TokenScore；对 baseline 薄弱领域可改用 `--verify-mode all`。
 
 ## B 榜文档召回评估（`python -m script.eval_retrieval`）
 用 A 榜真实 doc_ids 当 gold，模拟盲测测召回。总体 R@8=0.91 / 全命中@8=0.80。

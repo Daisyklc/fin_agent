@@ -21,9 +21,12 @@ _FIN_TERMS = [
     "营业收入", "营业总收入", "净利润", "归属于上市公司股东", "现金流量", "经营活动",
     "研发投入", "研发费用", "分红", "派息", "每股收益", "资产负债率", "毛利率",
     "保险金", "身故", "现金价值", "账户价值", "保费", "退保", "受益人", "保险责任",
+    "免赔额", "等待期", "宽限期", "犹豫期", "保单贷款", "施救费用", "补偿", "报销",
     "施行", "生效", "工作日", "差异报告", "受益所有人", "尽职调查", "可疑交易",
-    "票面利率", "发行规模", "信用评级", "到期", "本金", "利息", "担保",
+    "较高风险", "高风险", "存量客户", "董事会", "股东大会",
+    "票面利率", "发行规模", "信用评级", "债项评级", "主体评级", "到期", "本金", "利息", "担保",
     "股东大会", "特别决议", "独立董事", "募集资金",
+    "杠杆", "净利率", "信创", "券商",
 ]
 _FIN_RE = re.compile("|".join(map(re.escape, _FIN_TERMS)))
 _CLAUSE_RE = re.compile(r"第[一二三四五六七八九十百零〇\d]+条")
@@ -94,13 +97,16 @@ class BM25Retriever:
         self._tokenized = [_tokenize(c["text"]) for c in chunks]
         self._bm25 = BM25Okapi(self._tokenized) if chunks else None
 
-    def _score_all(self, query: str) -> list[tuple[float, int]]:
+    def _score_all(
+        self, query: str, *, doc_boost: set[str] | None = None
+    ) -> list[tuple[float, int]]:
         """对全部 chunk 打分（BM25 + 规则加权），返回按分降序的 (score, idx)。"""
         q_tokens = _tokenize(query)
         scores = self._bm25.get_scores(q_tokens)
         q_terms = set(_FIN_RE.findall(query))
         q_clauses = set(_CLAUSE_RE.findall(query))
         q_nums = set(_NUM_RE.findall(query))
+        doc_boost = {d.lower() for d in (doc_boost or set())}
 
         boosted: list[tuple[float, int]] = []
         for i, c in enumerate(self.chunks):
@@ -114,6 +120,9 @@ class BM25Retriever:
                 s += 0.5 * len(q_nums & set(_NUM_RE.findall(text)))
             if c.get("is_table"):
                 s += 0.3
+            # 题目引用 doc_id 的 chunk 加权（跨文档对比题）
+            if doc_boost and c.get("doc_id", "").lower() in doc_boost:
+                s += 2.0
             boosted.append((s, i))
         boosted.sort(key=lambda x: x[0], reverse=True)
         return boosted
@@ -126,10 +135,15 @@ class BM25Retriever:
             section_title=c.get("section_title", ""), score=round(score, 3),
         )
 
-    def search(self, query: str, top_k: int = 8) -> list[RetrievedChunk]:
+    def search(
+        self, query: str, top_k: int = 8, *, doc_boost: set[str] | None = None
+    ) -> list[RetrievedChunk]:
         if not self._bm25:
             return []
-        return [self._to_chunk(s, i) for s, i in self._score_all(query)[:top_k]]
+        return [
+            self._to_chunk(s, i)
+            for s, i in self._score_all(query, doc_boost=doc_boost)[:top_k]
+        ]
 
     def recall_documents(
         self, query: str, top_docs: int = 3, topn_per_doc: int = 3
@@ -141,7 +155,7 @@ class BM25Retriever:
         """
         if not self._bm25:
             return []
-        ranked = self._score_all(query)
+        ranked = self._score_all(query, doc_boost=set())
         per_doc_scores: dict[str, list[float]] = {}
         for s, i in ranked:
             did = self.chunks[i]["doc_id"]
@@ -153,7 +167,13 @@ class BM25Retriever:
         return doc_score[:top_docs]
 
     def search_two_stage(
-        self, query: str, top_docs: int = 3, top_k: int = 8, per_doc: int = 2
+        self,
+        query: str,
+        top_docs: int = 3,
+        top_k: int = 8,
+        per_doc: int = 2,
+        *,
+        doc_boost: set[str] | None = None,
     ) -> tuple[list[RetrievedChunk], list[str]]:
         """两阶段检索：先文档召回，再在候选文档内做均衡段落检索。
 
@@ -161,8 +181,10 @@ class BM25Retriever:
         """
         cand = [d for d, _ in self.recall_documents(query, top_docs=top_docs)]
         cand_set = set(cand)
-        ranked = [(s, i) for s, i in self._score_all(query)
-                  if self.chunks[i]["doc_id"] in cand_set]
+        ranked = [
+            (s, i) for s, i in self._score_all(query, doc_boost=doc_boost)
+            if self.chunks[i]["doc_id"] in cand_set
+        ]
         chosen: list[int] = []
         chosen_set: set[int] = set()
         per_doc_count: dict[str, int] = {}
@@ -181,7 +203,12 @@ class BM25Retriever:
         return [self._to_chunk(score_by_idx[i], i) for i in chosen], cand
 
     def search_balanced(
-        self, query: str, top_k: int = 8, per_doc: int = 2
+        self,
+        query: str,
+        top_k: int = 8,
+        per_doc: int = 2,
+        *,
+        doc_boost: set[str] | None = None,
     ) -> list[RetrievedChunk]:
         """保证多文档覆盖：先给每个文档至少 per_doc 个名额，再用全局高分填满 top_k。
 
@@ -190,7 +217,7 @@ class BM25Retriever:
         """
         if not self._bm25:
             return []
-        ranked = self._score_all(query)
+        ranked = self._score_all(query, doc_boost=doc_boost)
         chosen: list[int] = []
         chosen_set: set[int] = set()
         per_doc_count: dict[str, int] = {}

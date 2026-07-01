@@ -57,6 +57,12 @@ DEFAULT_MAX_TOKENS: int = 1024
 REQUEST_TIMEOUT: int = 120
 MAX_RETRIES: int = 3
 
+# 证据片段送入模型时的单段字符上限（控制 prompt token）
+EVIDENCE_CHUNK_MAX_CHARS: int = int(os.getenv("EVIDENCE_CHUNK_MAX_CHARS", "1800"))
+
+# 自洽验证模式：off | selective | all
+VERIFY_MODE: str = os.getenv("VERIFY_MODE", "selective")
+
 
 def api_key_is_placeholder() -> bool:
     """判断 API Key 是否仍是占位符（尚未填入）。"""

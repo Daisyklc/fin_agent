@@ -21,6 +21,7 @@ from config import settings
 from agent.questions import load_questions
 from agent.doc_registry import get_registry
 from agent.retrieval import BM25Retriever, load_domain_chunks
+from agent.query_builder import build_retrieval_query
 
 
 def main() -> int:
@@ -63,7 +64,7 @@ def main() -> int:
         gold = norm_ids(q.doc_ids)
         if not gold:
             continue
-        query = q.question + " " + " ".join(q.options.values())
+        query = build_retrieval_query(q)
         ranked_docs = [d for d, _ in r.recall_documents(query, top_docs=max_k)]
         for k in ks:
             topk = set(ranked_docs[:k])

@@ -10,6 +10,8 @@ from agent.questions import Question
 from agent.qwen_client import QwenClient
 from agent.token_tracker import TokenTracker, GLOBAL_TRACKER
 from agent.retrieval import BM25Retriever, RetrievedChunk, load_chunks, load_domain_chunks
+from agent.query_builder import build_retrieval_query
+from agent.verify_policy import should_verify
 from agent.prompts import (
     SYSTEM_PROMPT, build_user_prompt, VERIFY_SYSTEM_PROMPT, build_verify_prompt,
 )
@@ -46,19 +48,22 @@ class FinanceAgent:
         top_k: int = 8,
         top_docs: int = 8,
         verify: bool = False,
+        verify_mode: str | None = None,
     ) -> None:
         self.client = client or QwenClient()
         self.tracker = tracker or GLOBAL_TRACKER
         self.top_k = top_k
         self.top_docs = top_docs
         self.enable_verify = verify
+        self.verify_mode = verify_mode or settings.VERIFY_MODE
 
     def _retrieve(self, q: Question) -> list[RetrievedChunk]:
         chunks, _ = self._retrieve_with_cands(q)
         return chunks
 
     def _retrieve_with_cands(self, q: Question) -> tuple[list[RetrievedChunk], list[str]]:
-        query = q.question + " " + " ".join(q.options.values())
+        query = build_retrieval_query(q)
+        doc_boost = {d.lower() for d in q.doc_ids}
         if q.doc_ids:
             # A 榜：限定在题目给的 doc_ids
             chunks = load_chunks(q.doc_ids, q.domain)
@@ -67,8 +72,12 @@ class FinanceAgent:
                 return [], []
             retriever = BM25Retriever(chunks)
             if len(q.doc_ids) > 1:
-                return retriever.search_balanced(query, top_k=self.top_k, per_doc=2), q.doc_ids
-            return retriever.search(query, top_k=self.top_k), q.doc_ids
+                return (
+                    retriever.search_balanced(
+                        query, top_k=self.top_k, per_doc=2, doc_boost=doc_boost),
+                    q.doc_ids,
+                )
+            return retriever.search(query, top_k=self.top_k, doc_boost=doc_boost), q.doc_ids
         # B 榜：无 doc_ids → 全领域两阶段检索（先文档召回，再段落）
         chunks = load_domain_chunks(q.domain)
         if not chunks:
@@ -76,7 +85,7 @@ class FinanceAgent:
             return [], []
         retriever = BM25Retriever(chunks)
         return retriever.search_two_stage(
-            query, top_docs=self.top_docs, top_k=self.top_k, per_doc=2)
+            query, top_docs=self.top_docs, top_k=self.top_k, per_doc=2, doc_boost=doc_boost)
 
     def answer(self, q: Question) -> QAResult:
         with self.tracker.scope(q.qid):
@@ -101,7 +110,7 @@ class FinanceAgent:
                 raw=raw_answer,
             )
 
-            if self.enable_verify:
+            if self.enable_verify and should_verify(q, self.verify_mode):
                 self._verify(q, chunks, result)
             return result
 
@@ -115,12 +124,20 @@ class FinanceAgent:
         data = self.client.chat_json(messages, qid=q.qid, max_tokens=settings.DEFAULT_MAX_TOKENS)
         v_ans = normalize_answer(str(data.get("answer", "")), q)
         agree = bool(data.get("agree", True))
+        confidence = str(data.get("confidence", ""))
         result.verified = True
         result.initial_answer = result.answer
         result.agree = agree
-        result.confidence = str(data.get("confidence", ""))
+        result.confidence = confidence
         result.verify_note = str(data.get("note", ""))
         # 复核给出有效答案且不一致时，采用复核答案
         if v_ans and v_ans != result.answer:
             result.answer = v_ans
             result.agree = False
+        elif not agree and v_ans and v_ans == result.answer:
+            # 模型声称不同意但答案未变：标记不一致，保留初答供人工关注
+            result.agree = False
+        elif not agree and not v_ans:
+            result.agree = False
+            if confidence == "low":
+                result.confidence = "low"
