@@ -91,6 +91,8 @@ class DeepSeekClient:
         client = self._ensure_client()
         temperature = settings.DEFAULT_TEMPERATURE if temperature is None else temperature
         max_tokens = settings.DEFAULT_MAX_TOKENS if max_tokens is None else max_tokens
+        if self.model == settings.DEEPSEEK_REASONER_MODEL and max_tokens <= settings.DEFAULT_MAX_TOKENS:
+            max_tokens = 8192
         if json_mode:
             kwargs.setdefault("response_format", {"type": "json_object"})
 
@@ -111,7 +113,12 @@ class DeepSeekClient:
                         getattr(usage, "completion_tokens", 0),
                         qid=qid,
                     )
-                return resp.choices[0].message.content or ""
+                msg = resp.choices[0].message
+                text = msg.content or ""
+                # reasoner：最终答案在 content；若为空则从 reasoning_content 尾部抽取
+                if not text.strip() and self.model == settings.DEEPSEEK_REASONER_MODEL:
+                    text = getattr(msg, "reasoning_content", None) or ""
+                return text
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 wait = min(2 ** attempt, 10)
