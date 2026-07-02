@@ -63,10 +63,24 @@ EVIDENCE_CHUNK_MAX_CHARS: int = int(os.getenv("EVIDENCE_CHUNK_MAX_CHARS", "1800"
 # 自洽验证模式：off | selective | all
 VERIFY_MODE: str = os.getenv("VERIFY_MODE", "selective")
 
+# ------------------------------------------------------------------ #
+# DeepSeek（仅用于离线标注 / 交叉测试，不参与赛题提交推理）
+# ------------------------------------------------------------------ #
+DEEPSEEK_API_KEY: str = os.getenv("DEEPSEEK_API_KEY", "<在此填入你的_DEEPSEEK_API_KEY>")
+DEEPSEEK_BASE_URL: str = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+DEEPSEEK_MODEL: str = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+# 推理模型 deepseek-reasoner 更慢更贵，适合难题抽检
+DEEPSEEK_REASONER_MODEL: str = os.getenv("DEEPSEEK_REASONER_MODEL", "deepseek-reasoner")
+
 
 def api_key_is_placeholder() -> bool:
-    """判断 API Key 是否仍是占位符（尚未填入）。"""
+    """判断 Qwen API Key 是否仍是占位符（尚未填入）。"""
     return (not API_KEY) or API_KEY.startswith("<")
+
+
+def deepseek_api_key_is_placeholder() -> bool:
+    """判断 DeepSeek API Key 是否仍是占位符。"""
+    return (not DEEPSEEK_API_KEY) or DEEPSEEK_API_KEY.startswith("<")
 
 
 for _d in (PROCESSED_DIR, LOGS_DIR):

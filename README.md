@@ -81,10 +81,34 @@ python -m script.run                              # 全部 A 榜 → answer.csv
 用 A 榜真实 doc_ids 当 gold，模拟盲测测召回。总体 R@8=0.91 / 全命中@8=0.80。
 弱项：insurance、financial_contracts（产品/债券名泛化），是后续优化重点。
 
+## DeepSeek 离线标注（不参与提交）
+
+赛题正式推理只能用 Qwen；DeepSeek 用于 **gold 标注、交叉验证、错题分析**。
+
+```bash
+# 1. 配置 Key（https://platform.deepseek.com 申请）
+export DEEPSEEK_API_KEY=你的key
+
+# 2. 小规模试跑
+python -m script.annotate_gold --limit 5
+
+# 3. 全量标注并与 Qwen 对比
+python -m script.annotate_gold --compare answer.csv
+
+# 4. 难题用推理模型抽检
+python -m script.annotate_gold --qids ins_a_003,reg_a_006 --reasoner
+```
+
+产出：
+- `gold/deepseek_group_a_gold.csv`：可合并进 `gold/group_a_gold.csv` 后跑 `script.analyze`
+- `logs/deepseek_vs_qwen.md`：与 Qwen 答案不一致的题（优先人工复核）
+- `logs/deepseek_annotate_*.json`：完整标注明细
+
 ## 评估与对比脚本
 ```bash
 python -m script.make_gold_template     # 生成 gold 模板供人工填标准答案
-python -m script.analyze                # 结果分析 + 错题报告 + baseline 对照（需 gold 才算准确率）
+python -m script.annotate_gold --limit 5  # DeepSeek 离线标注（需 DEEPSEEK_API_KEY）
+python -m script.analyze                # 结果分析 + 错题报告（需 gold）
 python -m script.compare_runs --a answer_run1.csv --b answer.csv   # 两次运行差异
 python -m script.eval_retrieval         # B 榜文档召回 recall@k
 python -m script.run_baseline --limit 5 # 朴素长文输入 baseline 对照
@@ -99,4 +123,3 @@ python -m script.make_submission        # 打包 submission.zip（≤1GB）
 | verify 自洽验证 | `answer_verify.csv` | 1,191,580 | 0.762 | 8 题高风险，5 处精确措辞纠正 |
 
 当前 `answer.csv` = verify 版。提交版选择见对话说明（accuracy 主导 vs TokenScore）。
-```
