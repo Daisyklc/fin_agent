@@ -10,6 +10,26 @@ API Key 有两种填法（任选其一）：
 import os
 from pathlib import Path
 
+ROOT: Path = Path(__file__).resolve().parent.parent
+
+
+def _load_dotenv(path: Path | None = None) -> None:
+    """加载项目根目录 .env（若存在），不覆盖已有环境变量。"""
+    env_path = path or (ROOT / ".env")
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key, val = key.strip(), val.strip().strip("'\"")
+        if key and key not in os.environ:
+            os.environ[key] = val
+
+
+_load_dotenv()
+
 # ------------------------------------------------------------------ #
 # API 凭证（先预留，后续自行填入）
 # ------------------------------------------------------------------ #
@@ -27,7 +47,6 @@ MODEL_NAME: str = os.getenv("QWEN_MODEL", "qwen3.6-plus")
 # ------------------------------------------------------------------ #
 # 路径
 # ------------------------------------------------------------------ #
-ROOT: Path = Path(__file__).resolve().parent.parent
 RAW_DIR: Path = ROOT / "raw"
 QUESTIONS_DIR: Path = ROOT / "questions"
 PROCESSED_DIR: Path = ROOT / "processed_data"
