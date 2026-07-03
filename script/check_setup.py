@@ -19,6 +19,11 @@ def main() -> int:
     print("项目根目录:", settings.ROOT)
     print("模型:", settings.MODEL_NAME, "| base_url:", settings.BASE_URL)
     print("API Key 状态:", "未配置（占位符）" if settings.api_key_is_placeholder() else "已配置")
+    print(
+        "DeepSeek Key:",
+        "未配置（占位符）" if settings.deepseek_api_key_is_placeholder() else "已配置",
+        f"| 模型: {settings.DEEPSEEK_MODEL}",
+    )
     print("=" * 60)
 
     registry = get_registry()

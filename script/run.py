@@ -35,7 +35,9 @@ def main() -> int:
     ap.add_argument("--top-k", type=int, default=8)
     ap.add_argument("--top-docs", type=int, default=8, help="B榜文档级召回候选数")
     ap.add_argument("--verify", action="store_true",
-                    help="开启自洽验证（每题加一次独立复核，token 翻倍，筛高风险题）")
+                    help="开启自洽验证（默认 selective 模式，仅高风险题复核）")
+    ap.add_argument("--verify-mode", default=None, choices=["off", "selective", "all"],
+                    help="验证范围：selective=高风险题(默认), all=每题, off=关闭")
     ap.add_argument("--qids", default=None, help="只跑指定题目(逗号分隔)")
     ap.add_argument("--merge", action="store_true",
                     help="把本次结果合并进已有 answer.csv/evidence.json，而非全量覆盖")
@@ -57,7 +59,20 @@ def main() -> int:
         logger.error("未配置 API Key，无法实际推理。可先用 --dry-run 验证流水线。")
         return 2
 
-    agent = FinanceAgent(top_k=args.top_k, top_docs=args.top_docs, verify=args.verify)
+    verify_mode = args.verify_mode or (settings.VERIFY_MODE if args.verify else "off")
+    if args.verify and verify_mode == "off":
+        verify_mode = settings.VERIFY_MODE
+
+    agent = FinanceAgent(
+        top_k=args.top_k, top_docs=args.top_docs,
+        verify=args.verify or verify_mode != "off",
+        verify_mode=verify_mode,
+    )
+    from agent.verify_policy import count_verify_targets
+    n_verify = count_verify_targets(questions, verify_mode) if (args.verify or verify_mode != "off") else 0
+    if n_verify:
+        logger.info("自洽验证模式=%s，将复核 %d/%d 题", verify_mode, n_verify, len(questions))
+
     answers: dict[str, str] = {}
     evidence_log: dict[str, dict] = {}
     high_risk: list[dict] = []
@@ -126,7 +141,7 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    if args.verify:
+    if args.verify or verify_mode != "off":
         hr_path = settings.LOGS_DIR / "highrisk_report.md"
         lines = [f"# 高风险题报告（{len(high_risk)} 题，复核不一致或低置信）\n"]
         for h in high_risk:

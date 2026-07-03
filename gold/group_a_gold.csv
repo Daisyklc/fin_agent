@@ -1,11 +1,11 @@
-﻿qid,domain,answer_format,type,answer,question_brief
+qid,domain,answer_format,type,answer,question_brief
 ins_a_001,insurance,mcq,推理判断,,关于四个养老保险/寿险产品的“身故保险金”，以下计算结果正确的是？假设所有产品的
 ins_a_002,insurance,mcq,计算题,,假设投保人分别投保了平安智盈金生、国寿增益宝、平安富鸿金生。平安智盈金生累计所交
-ins_a_003,insurance,mcq,计算题,,李某投保了众安白血病医疗险、平安e生保（计划二，免赔额5000元）、太保团体百万
+ins_a_003,insurance,mcq,计算题,D,李某投保了众安白血病医疗险、平安e生保（计划二，免赔额5000元）、太保团体百万
 ins_a_004,insurance,mcq,逻辑推理,,关于“等待期”内出险的处理，以下哪种情形下保险公司需要承担赔偿责任？
 ins_a_005,insurance,multi,逻辑推理,,下列哪些情形属于相应保险产品的免责范围？
 ins_a_006,insurance,mcq,计算题,,王某投保了平安e生保（计划一：免赔额1万元，家庭共享）和太保团体百万医疗（免赔额
-ins_a_007,insurance,multi,推理判断,,关于“保单贷款”，以下哪些说法正确？
+ins_a_007,insurance,multi,推理判断,BC,关于“保单贷款”，以下哪些说法正确？
 ins_a_008,insurance,multi,比较分析,,关于“特定药品费用”的报销，下列哪些说法符合条款规定？
 ins_a_009,insurance,multi,逻辑推理,,张某在驾驶特种车作业时，因操作不当导致车辆侧翻，本人受伤住院。他投保了平安预防接
 ins_a_010,insurance,multi,事实查询,,关于“现金价值”的表述，下列哪些产品的条款中明确给出了具体的计算方法或公式？
@@ -14,7 +14,7 @@ ins_a_012,insurance,multi,事实查询,,关于“宽限期”后合同效力中�
 ins_a_013,insurance,mcq,比较分析,,三个养老保险产品（平安智盈金生、国寿鑫享添盈、平安富鸿金生）关于“养老年金开始领
 ins_a_014,insurance,multi,逻辑推理,,赵某因意外事故导致双耳失聪，他投保了以下哪些产品可以获得赔付？
 ins_a_015,insurance,multi,比较分析,,关于“故意自伤或自杀”的免责，以下哪些产品的条款中明确将“自杀”列为责任免除，但
-ins_a_016,insurance,multi,事实查询,,关于“施救费用”的赔偿上限，下列哪些产品的条款中明确规定最高不超过保险金额？
+ins_a_016,insurance,multi,事实查询,CD,关于“施救费用”的赔偿上限，下列哪些产品的条款中明确规定最高不超过保险金额？
 ins_a_017,insurance,multi,逻辑推理,,某被保险人同时拥有国寿增益宝、众安白血病医疗险、众安营运交通意外险、平安家财险。
 ins_a_018,insurance,multi,比较分析,,关于“免赔额”的抵扣，以下哪些说法正确？
 ins_a_019,insurance,multi,事实查询,,假设四款产品（平安智盈金生、国寿增益宝、平安安佑福、平安富鸿金生）的投保人均在犹
@@ -24,28 +24,28 @@ reg_a_002,regulatory,multi,多选题,,结合《中华人民共和国反洗钱法
 reg_a_003,regulatory,tf,判断题,,根据相关法规，金融机构在处理上市公司受益所有人身份信息时，因包含照片等敏感数据项
 reg_a_004,regulatory,multi,多选题,,关于金融机构及银行卡清算机构的报告时限要求，下列说法正确的有？
 reg_a_005,regulatory,multi,多选题,,结合《金融机构客户受益所有人识别管理办法》与《非银行支付机构监督管理条例实施细则
-reg_a_006,regulatory,tf,判断,,根据相关规定，金融机构对存量高风险非自然人客户的受益所有人识别核实工作应自新规施
+reg_a_006,regulatory,tf,判断,B,根据相关规定，金融机构对存量高风险非自然人客户的受益所有人识别核实工作应自新规施
 reg_a_007,regulatory,multi,多选,,关于《金融机构客户尽职调查和客户身份资料及交易记录保存管理办法》与《中华人民共和
 reg_a_008,regulatory,mcq,单选,,依据《银行卡清算机构管理办法》和《金融机构客户尽职调查和客户身份资料及交易记录保
 reg_a_009,regulatory,multi,多选,,结合《中国人民银行业务领域数据安全管理办法》与《金融机构客户尽职调查和客户身份资
 reg_a_010,regulatory,tf,判断,,按照现行规定，非银行支付机构董事、监事在同一机构内调任职位的，应当于变更完成后 
 reg_a_011,regulatory,multi,multi,,根据相关监管规定，下列哪些情形需要履行特定的内部审批程序或满足特定金额门槛？
-reg_a_012,regulatory,multi,multi,,关于上市公司治理及年度报告编制，以下说法符合规定的有哪些？
+reg_a_012,regulatory,multi,multi,ABCD,关于上市公司治理及年度报告编制，以下说法符合规定的有哪些？
 reg_a_013,regulatory,tf,tf,,上市公司应当在股东会召开前披露董事候选人，且半年度报告内容应当经上市公司董事会审
 reg_a_014,regulatory,multi,multi,,结合上市公司治理准则与章程指引，下列关于股东大会职权及会议规则的描述正确的有哪些
 reg_a_015,regulatory,mcq,mcq,,根据《上市公司信息披露管理办法》和《上市公司治理准则》，关于定期报告与利润分配的
 reg_a_016,regulatory,multi,多选题,,结合上市公司治理规范与审计机构行政处罚案例，关于公司治理及审计责任，下列说法正确
-reg_a_017,regulatory,multi,多选题,,关于上市公司治理规范及行政处罚时效的相关规定，下列说法中正确的有哪些？
+reg_a_017,regulatory,multi,多选题,AB,关于上市公司治理规范及行政处罚时效的相关规定，下列说法中正确的有哪些？
 reg_a_018,regulatory,tf,判断题,,判断题：根据相关监管规定，上市公司定期报告须经董事会审议通过后方可披露，且证券公
 reg_a_019,regulatory,multi,多选题,,结合证券公司分类监管规定与市场禁入决定书的案例背景，以下关于违规处理及后果的说法
 reg_a_020,regulatory,multi,多选题,,依据相关准则与规定，关于半年度报告的编制要求及监管规定的生效时点，下列描述准确的
-fc_a_001,financial_contracts,multi,多选题,,基于提供的两份债券募集说明书摘要，关于发行主体、发行规模及中介机构安排，下列哪些
-fc_a_002,financial_contracts,multi,多选题,,对比两份文档中的债券发行要素与评级信息，以下哪些结论成立？
+fc_a_001,financial_contracts,multi,多选题,ABD,基于提供的两份债券募集说明书摘要，关于发行主体、发行规模及中介机构安排，下列哪些
+fc_a_002,financial_contracts,multi,多选题,ABD,对比两份文档中的债券发行要素与评级信息，以下哪些结论成立？
 fc_a_003,financial_contracts,tf,判断题,,两份文档均包含关于发行人将及时、公平地履行信息披露义务的明确承诺条款。
-fc_a_004,financial_contracts,multi,多选题,,结合两份文档内容，关于发行限额与财务指标披露情况，下列说法正确的是？
+fc_a_004,financial_contracts,multi,多选题,A,结合两份文档内容，关于发行限额与财务指标披露情况，下列说法正确的是？
 fc_a_005,financial_contracts,multi,多选题,,针对两份文档所涉及的发行主体及交易结构特征，以下哪些判断符合文档内容？
 fc_a_006,financial_contracts,tf,判断题,,文档 fc_text_001 和 fc_text_004 均提及了涉及债券持有人
-fc_a_007,financial_contracts,multi,多选题,,关于文档 fc_text_002 和 fc_text_014 的内容，下列哪些说
+fc_a_007,financial_contracts,multi,多选题,ABD,关于文档 fc_text_002 和 fc_text_014 的内容，下列哪些说
 fc_a_008,financial_contracts,mcq,单选题,,结合文档 fc_text_002 和 fc_text_003 的信息，以下哪项描
 fc_a_009,financial_contracts,multi,多选题,,对比文档 fc_text_002 和 fc_text_010 的内容，下列哪些陈
 fc_a_010,financial_contracts,tf,判断题,,基于给定文档，判断陈述是否正确：文档 fc_text_006 中明确列出了转股价
@@ -59,43 +59,43 @@ fc_a_017,financial_contracts,multi,clause_verification,,结合相关募集说明
 fc_a_018,financial_contracts,tf,time_comparison,,根据文档披露的时间信息，第二份文件中的可转债发行公告日期晚于第一份文件中的发行日
 fc_a_019,financial_contracts,multi,data_consistency_check,,对比两份文档中的证券信息与财务数据披露情况，下列判断成立的是？
 fc_a_020,financial_contracts,multi,clause_verification,,依据文档内容，关于可转换债券的初始转股价格及发行人信息，正确的陈述有？
-fin_a_001,financial_reports,multi,财务指标对比分析,,根据比亚迪连续两年的年度报告，下列关于公司经营业绩变化的描述中，哪些是准确的？
+fin_a_001,financial_reports,multi,财务指标对比分析,AB,根据比亚迪连续两年的年度报告，下列关于公司经营业绩变化的描述中，哪些是准确的？
 fin_a_002,financial_reports,multi,财务指标对比分析,,结合宁德时代 2024 年及 2025 年年度报告，关于其财务表现与股东回报政策
 fin_a_003,financial_reports,tf,财务数据一致性校验,,依据中国建筑 2024 年与 2025 年年度报告披露的信息，判断以下说法是否正
 fin_a_004,financial_reports,multi,财务指标对比分析,,对照美的集团 2024 年与 2025 年年度报告，关于公司业绩增长与资金运作情
-fin_a_005,financial_reports,multi,跨公司财务指标对比,,基于比亚迪与美的集团 2024 年年度报告的数据对比，关于两家企业关键财务指标的
+fin_a_005,financial_reports,multi,跨公司财务指标对比,ABD,基于比亚迪与美的集团 2024 年年度报告的数据对比，关于两家企业关键财务指标的
 fin_a_006,financial_reports,tf,判断题,,根据提供的年度报告数据，比亚迪 2024 年经营活动产生的现金流量净额低于其营业
-fin_a_007,financial_reports,multi,多选题,,关于比亚迪 2024 年和宁德时代 2025 年的财务表现，以下哪些描述是准确的
+fin_a_007,financial_reports,multi,多选题,ABD,关于比亚迪 2024 年和宁德时代 2025 年的财务表现，以下哪些描述是准确的
 fin_a_008,financial_reports,mcq,单选题,,结合两份年报信息，关于利润分配及研发投入的描述，下列哪一项是正确的？
 fin_a_009,financial_reports,multi,多选题,,对比比亚迪 2024 年与中国移动 2025 年的相关财务指标，以下说法正确的有
 fin_a_010,financial_reports,tf,判断题,,在提供的文档中，比亚迪 2025 年的研发投入占营业收入比例相较于 2024 年
-fin_a_011,financial_reports,multi,多选题,,关于比亚迪与美的集团 2025 年年度报告披露的经营成果及分红安排，下列陈述正确
+fin_a_011,financial_reports,multi,多选题,CD,关于比亚迪与美的集团 2025 年年度报告披露的经营成果及分红安排，下列陈述正确
 fin_a_012,financial_reports,multi,多选题,,对比比亚迪与中国移动 2025 年财务数据，以下结论成立的是？
 fin_a_013,financial_reports,tf,判断题,,判断：宁德时代 2024 年度拟派发的每股现金分红金额高于比亚迪 2025 年度
-fin_a_014,financial_reports,multi,多选题,,基于比亚迪与宁德时代 2025 年年报信息，关于业绩增长与分红政策的描述，正确的
+fin_a_014,financial_reports,multi,多选题,AB,基于比亚迪与宁德时代 2025 年年报信息，关于业绩增长与分红政策的描述，正确的
 fin_a_015,financial_reports,mcq,单选题,,依据宁德时代 2024 年与中国移动 2025 年年报，关于利润分配与营收情况的
 fin_a_016,financial_reports,multi,财务分配政策比较,,关于宁德时代 2024 年年度报告与美的集团 2025 年年度报告中披露的利润分
 fin_a_017,financial_reports,multi,财务现金流与分红比例核对,,对比宁德时代与中国建筑 2024 年年度报告中的财务及分配情况，下列描述准确的有
 fin_a_018,financial_reports,tf,业绩增长趋势判断,,判断题：根据 2025 年年度报告，宁德时代与美的集团的营业收入均实现双位数增长
 fin_a_019,financial_reports,multi,股东回报措施对比,,关于宁德时代 2025 年及美的集团 2024 年的股东回报措施，以下说法正确的
 fin_a_020,financial_reports,multi,企业规模与研发投入分析,,基于宁德时代与中国移动 2025 年年度报告数据，关于企业规模与研发投入的描述，
-res_a_001,research,multi,industry_comparison,,关于银保渠道发展历程及银行 IT 市场规模的描述，下列哪些选项是正确的？
-res_a_002,research,multi,market_forecast,,结合两份报告内容，关于行业市场规模及增速的预测，以下说法正确的是？
+res_a_001,research,multi,industry_comparison,ABC,关于银保渠道发展历程及银行 IT 市场规模的描述，下列哪些选项是正确的？
+res_a_002,research,multi,market_forecast,ABC,结合两份报告内容，关于行业市场规模及增速的预测，以下说法正确的是？
 res_a_003,research,tf,data_verification,,判断以下陈述是否正确：韩国寿险银保渠道近 20 年的复合增速低于远望谷在新兴赛道
 res_a_004,research,multi,business_model,,关于芯原股份的业务模式及银保渠道发展情况，下列描述符合文档内容的是？
 res_a_005,research,multi,economic_indicator,,基于消费与保险行业报告，关于经济增长指标及渠道贡献的说法，正确的有？
-res_a_006,research,tf,financial_ratio,,判断以下陈述是否正确：2008 年至 2025 年前三季度，我国上市券商客户资金
-res_a_007,research,multi,tech_standard,,关于网络安全运营及银行 IT 企业的财务表现，下列描述准确的有？
+res_a_006,research,tf,financial_ratio,B,判断以下陈述是否正确：2008 年至 2025 年前三季度，我国上市券商客户资金
+res_a_007,research,multi,tech_standard,ABC,关于网络安全运营及银行 IT 企业的财务表现，下列描述准确的有？
 res_a_008,research,mcq,data_accuracy,,下列关于网络安全标准及光通信市场规模的描述，哪一项是正确的？
-res_a_009,research,multi,cross_industry,,结合银保渠道历史与网络安全运营数据，以下说法成立的有？
+res_a_009,research,multi,cross_industry,ABC,结合银保渠道历史与网络安全运营数据，以下说法成立的有？
 res_a_010,research,tf,fund_flow,,判断以下陈述是否正确：根据文档信息，上周新成立基金份额为 91.1 亿份，其中主
 res_a_011,research,multi,brokerage_security,,关于券商杠杆变化及安全运营规则的统计，下列选项正确的有？
 res_a_012,research,multi,chip_security,,关于芯片设计服务与安全运营数据的描述，符合文档内容的有？
 res_a_013,research,tf,pet_market,,判断以下陈述是否正确：2025 年我国宠物医疗市场规模为人民币 2786 亿元，
-res_a_014,research,multi,consumption_chip,,关于服务消费趋势及芯片市场预测，以下说法正确的有？
+res_a_014,research,multi,consumption_chip,ABC,关于服务消费趋势及芯片市场预测，以下说法正确的有？
 res_a_015,research,mcq,bank_insurance,,基于金融机构配置线索及服务消费报告，下列哪项数据描述是准确的？
 res_a_016,research,multi,多选题,,根据提供的两份报告，关于 2025 年至 2026 年初的经济与金融趋势，以下哪
 res_a_017,research,multi,多选题,,结合产业前瞻与银行 IT 深度报告，关于 2025 年的市场容量或财务表现，以下
 res_a_018,research,tf,判断题,,根据电动车行业策略与车展前瞻报告，2026 年 3 月乘用车新能源渗透率为 51
-res_a_019,research,multi,多选题,,基于化工周报与电动车行业策略报告，关于大宗商品价格对行业的影响及估值预测，以下哪
+res_a_019,research,multi,多选题,AB,基于化工周报与电动车行业策略报告，关于大宗商品价格对行业的影响及估值预测，以下哪
 res_a_020,research,multi,多选题,,综合电动车行业策略与集成电路深度报告，关于技术赛道预测及锂电估值，以下哪些信息是

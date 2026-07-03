@@ -1,0 +1,9 @@
+qid,suggested_answer,confidence,source,note
+reg_a_006,B,high,consensus,Qwen与DeepSeek一致
+ins_a_003,,low,disputed,需人工：补偿型上限 vs 选项A/B/C同值
+ins_a_007,,low,disputed,Qwen=BC DeepSeek=AC
+ins_a_016,,low,needs_retrieval,DeepSeek无证据；需补doc9/10
+reg_a_012,,low,disputed,C项是否成立
+reg_a_017,,low,disputed,C是否为法条
+fc_a_007,,low,disputed,Qwen=A DeepSeek=ABD
+res_a_006,,low,disputed,「除」字是否改变判断

@@ -66,24 +66,49 @@ python -m script.run                              # 全部 A 榜 → answer.csv
 - [x] M2 BM25 + 金融术语加权检索（dry-run 100 题 0 漏召回）
 - [x] M3 推理流水线打通，全量实跑：100/100，总 Token 635K，TokenScore 0.873
 - [x] M4 均衡检索（多文档题保证每个文档都有证据）+ 全量重跑（13 题答案变化）
-- [~] M5 错题分析与 token 压缩：已加自洽验证环节（`--verify`），筛高风险题；量化准确率仍需 gold
+- [~] M5 错题分析与 token 压缩：选择性自洽验证（`--verify-mode selective`）+ 检索 query 增强 + 分领域 prompt 加固
 - [x] M6 B 榜全库检索适配：两阶段（文档召回→段落），doc recall@8 全命中率 0.80
 
 ## 自洽验证（`python -m script.run --verify`）
 每题在初答后再做一次独立复核（critic），逐选项核对证据：
+- **`--verify-mode selective`（默认）**：仅对高风险题复核（多选、判断、保险计算/推理、财报/合同跨文档单选、研报数据核验），约 97/100 题。
+- **`--verify-mode all`**：每题复核，token 约翻倍（100 题约 1.3M，TokenScore≈0.74）。
 - 复核与初答**不一致**或**低置信** → 标记为高风险题，写入 `logs/highrisk_report.md`（含 初答→终答、置信度、复核要点）。
-- 不一致时默认采用复核答案为终值。
-- 代价：每题多一次调用，token 约翻倍（100 题约 1.3M，TokenScore≈0.74）。建议先用 `--qids`/`--limit` 小规模试，或对 baseline 已知薄弱领域开启。
-- 注意：单次复核存在一定确认偏差；若需更强不确定性识别，可改用多次采样(temperature>0)多数表决。
+- 不一致时默认采用复核答案为终值；复核 prompt 要求 disagree 时必须给出不同于初答的正确选项。
+- 建议：提交前用 selective verify 平衡准确率与 TokenScore；对 baseline 薄弱领域可改用 `--verify-mode all`。
 
 ## B 榜文档召回评估（`python -m script.eval_retrieval`）
 用 A 榜真实 doc_ids 当 gold，模拟盲测测召回。总体 R@8=0.91 / 全命中@8=0.80。
 弱项：insurance、financial_contracts（产品/债券名泛化），是后续优化重点。
 
+## DeepSeek 离线标注（不参与提交）
+
+赛题正式推理只能用 Qwen；DeepSeek 用于 **gold 标注、交叉验证、错题分析**。
+
+```bash
+# 1. 配置 Key（https://platform.deepseek.com 申请）
+export DEEPSEEK_API_KEY=你的key
+
+# 2. 小规模试跑
+python -m script.annotate_gold --limit 5
+
+# 3. 全量标注并与 Qwen 对比
+python -m script.annotate_gold --compare answer.csv
+
+# 4. 难题用推理模型抽检
+python -m script.annotate_gold --qids ins_a_003,reg_a_006 --reasoner
+```
+
+产出：
+- `gold/deepseek_group_a_gold.csv`：可合并进 `gold/group_a_gold.csv` 后跑 `script.analyze`
+- `logs/deepseek_vs_qwen.md`：与 Qwen 答案不一致的题（优先人工复核）
+- `logs/deepseek_annotate_*.json`：完整标注明细
+
 ## 评估与对比脚本
 ```bash
 python -m script.make_gold_template     # 生成 gold 模板供人工填标准答案
-python -m script.analyze                # 结果分析 + 错题报告 + baseline 对照（需 gold 才算准确率）
+python -m script.annotate_gold --limit 5  # DeepSeek 离线标注（需 DEEPSEEK_API_KEY）
+python -m script.analyze                # 结果分析 + 错题报告（需 gold）
 python -m script.compare_runs --a answer_run1.csv --b answer.csv   # 两次运行差异
 python -m script.eval_retrieval         # B 榜文档召回 recall@k
 python -m script.run_baseline --limit 5 # 朴素长文输入 baseline 对照
@@ -98,4 +123,3 @@ python -m script.make_submission        # 打包 submission.zip（≤1GB）
 | verify 自洽验证 | `answer_verify.csv` | 1,191,580 | 0.762 | 8 题高风险，5 处精确措辞纠正 |
 
 当前 `answer.csv` = verify 版。提交版选择见对话说明（accuracy 主导 vs TokenScore）。
-```

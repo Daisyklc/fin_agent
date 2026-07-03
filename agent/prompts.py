@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import re
 
+from config import settings
 from agent.questions import Question
 from agent.retrieval import RetrievedChunk
 
@@ -28,10 +29,13 @@ _DOMAIN_GUIDE = {
     "insurance": (
         "你是保险条款分析专家。务必依据条款的触发条件与计算公式作答，"
         "区分身故保险金、现金价值、账户价值、已交保费、已领年金等概念，注意领取前后规则差异。"
+        "医疗费用险为补偿型：多家医疗险对同一笔费用的赔付总额不得超过被保险人实际自负/自费的医疗费用。"
+        "计算免赔额时注意医保报销是否可抵扣免赔额（条款常规定不可抵扣）。"
     ),
     "regulatory": (
         "你是金融监管法规专家。必须严格依据给定法规条文作答，不得用常识替代条文。"
         "特别关注施行/生效日期、义务主体、时限（工作日/自然日）、比例阈值与法条优先级。"
+        "注意法规措辞的精确范围：如「较高风险以上」与「高风险」含义不同，不得扩大或缩小。"
     ),
     "financial_contracts": (
         "你是金融合同/债券条款分析专家。关注票面利率、发行规模、期限、信用评级、"
@@ -43,6 +47,7 @@ _DOMAIN_GUIDE = {
     ),
     "research": (
         "你是行业研究分析专家。基于研报内容核验行业趋势、公司比较与结论，避免主观推断。"
+        "特别注意否定词与限定词（除、不、未、除外、仅、不超过），勿因漏读而改变陈述真伪。"
     ),
 }
 
@@ -74,12 +79,16 @@ def build_user_prompt(q: Question, chunks: list[RetrievedChunk]) -> str:
 
 
 def _build_evidence_text(chunks: list[RetrievedChunk]) -> str:
+    max_chars = settings.EVIDENCE_CHUNK_MAX_CHARS
     blocks = []
     for i, c in enumerate(chunks, 1):
         loc = f"第{c.page}页" if c.page else ""
         tag = "【表格】" if c.is_table else ""
         head = f"[证据{i}] doc_id={c.doc_id} {loc} {tag}".strip()
-        blocks.append(f"{head}\n{_sanitize(c.text)}")
+        text = _sanitize(c.text)
+        if len(text) > max_chars:
+            text = text[:max_chars] + "…"
+        blocks.append(f"{head}\n{text}")
     return "\n\n".join(blocks) if blocks else "（无可用证据）"
 
 
@@ -102,7 +111,9 @@ def build_verify_prompt(
         f"【选项】\n{options_text}\n\n"
         f"【证据片段】\n{evidence_text}\n\n"
         f"【初步答案】{initial_answer}\n【初步依据】{initial_reason}\n\n"
-        "请逐个选项独立复核，判断初步答案是否正确。只输出如下 JSON：\n"
+        "请逐个选项独立复核，判断初步答案是否正确。"
+        "若初步答案错误，answer 必须给出你认为正确的选项字母，且不能与初步答案相同。"
+        "只输出如下 JSON：\n"
         '{"answer": "你复核后认为正确的选项字母", '
         '"agree": true 或 false（是否与初步答案一致）, '
         '"confidence": "high"/"medium"/"low", '
