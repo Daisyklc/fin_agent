@@ -10,12 +10,6 @@ venv/
 config/secret.py
 config/local_settings.py
 
-# 原始数据集（体量大；competition 提供，按需自行放置）
-raw/
-
-# 解析产物（可由 `python -m script.parse_docs` 重新生成）
-processed_data/
-
 # 打包产物
 submission.zip
 

@@ -1,0 +1,3440 @@
+[
+  {
+    "doc_id": "1",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "10",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\10.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "11",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\11.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "12",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\12.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "13",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\13.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "14",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\14.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "15",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\15.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "16",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\16.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "2",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "3",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "4",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\4.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "5",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\5.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "6",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\6.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "7",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\7.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "8",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\8.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "9",
+    "domain": "insurance",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\insurance\\9.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0001_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0001_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0001_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0001_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0002_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0002_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0002_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0002_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0003_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0003_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0003_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0003_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0004_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0004_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0005_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0005_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0005_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0005_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0006_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0006_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0006_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0006_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0007_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0007_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0007_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0007_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0008_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0008_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0008_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0008_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0009_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0009_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0009_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0009_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0010_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0010_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0010_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0010_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0011_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0011_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0011_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0011_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0012_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0012_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0012_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0012_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0013_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0013_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0013_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0013_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0014_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0014_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0014_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0014_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0015_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0015_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0016_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0016_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0016_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0016_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0017_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0017_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0017_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0017_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0018_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0018_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0018_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0018_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0019_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0019_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0019_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0019_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0020_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0020_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0020_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0020_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0021_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0021_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0021_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0021_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0022_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0022_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0023_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0023_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0023_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0023_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0024_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0024_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0024_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0024_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0024_att3",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0024_att3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0025_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0025_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0025_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0025_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0026_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0026_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0026_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0026_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0027_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0027_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0027_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0027_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0029_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0029_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0029_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0029_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0030_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0030_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0030_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0030_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0031_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0031_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0031_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0031_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0032_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0032_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0033_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0033_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0033_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0033_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0034_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0034_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0034_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0034_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0035_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0035_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0035_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0035_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0036_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0036_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0036_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0036_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0036_att3",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0036_att3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0036_att4",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0036_att4.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0037_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0037_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0037_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0037_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0038_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0038_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0038_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0038_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0039_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0039_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0039_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0039_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0040_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0040_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0040_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0040_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0041_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0041_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0041_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0041_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0041_att3",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0041_att3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0041_att4",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0041_att4.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0041_att5",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0041_att5.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0042_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0042_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0042_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0042_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0043_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0043_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0043_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0043_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0043_att3",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0043_att3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0043_att4",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0043_att4.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0043_att5",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0043_att5.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0045_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0045_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0045_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0045_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0046_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0046_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0046_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0046_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0047_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0047_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0048_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0048_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0048_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0048_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0049_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0049_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0049_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0049_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0050_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0050_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0050_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0050_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0051_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0051_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0051_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0051_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0052_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0052_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0052_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0052_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0053_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0053_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0053_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0053_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0054_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0054_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0054_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0054_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0055_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0055_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0055_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0055_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0055_att3",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0055_att3.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0056_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0056_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0056_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0056_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0057_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0057_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0057_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0057_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0058_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0058_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0058_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0058_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0059_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0059_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0060_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0060_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0060_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0060_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0061_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0061_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0061_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0061_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0062_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0062_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0063_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0063_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0064_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0064_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0065_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0065_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0066_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0066_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0067_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0067_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0068_att1",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0068_att1.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0068_att2",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\attachments\\csrc_0068_att2.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "csrc_0001",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0001.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0002",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0002.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0003",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0003.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0004",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0004.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0005",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0005.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0006",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0006.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0007",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0007.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0008",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0008.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0009",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0009.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0010",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0010.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0011",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0011.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0012",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0012.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0013",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0013.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0014",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0014.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0015",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0015.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0016",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0016.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0017",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0017.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0018",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0018.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0019",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0019.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0020",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0020.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0021",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0021.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0022",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0022.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0023",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0023.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0024",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0024.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0025",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0025.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0026",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0026.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0027",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0027.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0028",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0028.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0029",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0029.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0030",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0030.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0031",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0031.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0032",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0032.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0033",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0033.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0034",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0034.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0035",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0035.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0036",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0036.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0037",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0037.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0038",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0038.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0039",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0039.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0040",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0040.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0041",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0041.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0042",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0042.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0043",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0043.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0044",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0044.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0045",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0045.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0046",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0046.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0047",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0047.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0048",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0048.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0049",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0049.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0050",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0050.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0051",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0051.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0052",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0052.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0053",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0053.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0054",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0054.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0055",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0055.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0056",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0056.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0057",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0057.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0058",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0058.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0059",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0059.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0060",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0060.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0061",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0061.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0062",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0062.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0063",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0063.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0064",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0064.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0065",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0065.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0066",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0066.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0067",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0067.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0068",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0068.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0069",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0069.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0070",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0070.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0071",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0071.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0072",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0072.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0073",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0073.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0074",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0074.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0075",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0075.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0076",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0076.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0077",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0077.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0078",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0078.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0079",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0079.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0080",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0080.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0081",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0081.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0082",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0082.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0083",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0083.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0084",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0084.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0085",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0085.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0086",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0086.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0087",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0087.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0088",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0088.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0089",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0089.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0090",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0090.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0091",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0091.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0092",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0092.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0093",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0093.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0094",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0094.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0095",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0095.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0096",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0096.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0097",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0097.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0098",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0098.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0099",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0099.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0100",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0100.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0101",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0101.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0102",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0102.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0103",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0103.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0104",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0104.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0105",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0105.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0106",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0106.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0107",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0107.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0108",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0108.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0109",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0109.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0110",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0110.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0111",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0111.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0112",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0112.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0113",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0113.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0114",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0114.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0115",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0115.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0116",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0116.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0117",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0117.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0118",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0118.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0119",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0119.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0120",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0120.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0121",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0121.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0122",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0122.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0123",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0123.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0124",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0124.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0125",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0125.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0126",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0126.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0127",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0127.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0128",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0128.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0129",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0129.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0130",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0130.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0131",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0131.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0132",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0132.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0133",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0133.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0134",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0134.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0135",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0135.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0136",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0136.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0137",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0137.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0138",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0138.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0139",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0139.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0140",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0140.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0141",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0141.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0142",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0142.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0143",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0143.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0144",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0144.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0145",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0145.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0146",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0146.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0147",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0147.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0148",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0148.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0149",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0149.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0150",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0150.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0151",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0151.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0152",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0152.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0153",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0153.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0154",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0154.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0155",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0155.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0156",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0156.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0157",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0157.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0158",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0158.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0159",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0159.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0160",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0160.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0161",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0161.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0162",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0162.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0163",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0163.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0164",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0164.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0165",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0165.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0166",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0166.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0167",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0167.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0168",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0168.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0169",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0169.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0170",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0170.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0171",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0171.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0172",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0172.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0173",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0173.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0174",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0174.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0175",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0175.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0176",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0176.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0177",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0177.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0178",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0178.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0179",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0179.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0180",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0180.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0181",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0181.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0182",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0182.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0183",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0183.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0184",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0184.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0185",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0185.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0186",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0186.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0187",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0187.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0188",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0188.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0189",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0189.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0190",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0190.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0191",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0191.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0192",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0192.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0193",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0193.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0194",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0194.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0195",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0195.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0196",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0196.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0197",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0197.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0198",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0198.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0199",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0199.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0200",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0200.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0201",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0201.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0202",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0202.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0203",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0203.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0204",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0204.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0205",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0205.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0206",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0206.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0207",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0207.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0208",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0208.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0209",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0209.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0210",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0210.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0211",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0211.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0212",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0212.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0213",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0213.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0214",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0214.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0215",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0215.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0216",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0216.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0217",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0217.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0218",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0218.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0219",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0219.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0220",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0220.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0221",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0221.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0222",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0222.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0223",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0223.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0224",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0224.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0225",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0225.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0226",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0226.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0227",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0227.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0228",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0228.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0229",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0229.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0230",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0230.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0231",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0231.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0232",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0232.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0233",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0233.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0234",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0234.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0235",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0235.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0236",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0236.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0237",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0237.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0238",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0238.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0239",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0239.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0240",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0240.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0241",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0241.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0242",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0242.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0243",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0243.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0244",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0244.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0245",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0245.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0246",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0246.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0247",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0247.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0248",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0248.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0249",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0249.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0250",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0250.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0251",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0251.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0252",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0252.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0253",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0253.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0254",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0254.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0255",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0255.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0256",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0256.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0257",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0257.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0258",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0258.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0259",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0259.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0260",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0260.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0261",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0261.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0262",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0262.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0263",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0263.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0264",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0264.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0265",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0265.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0266",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0266.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0267",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0267.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0268",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0268.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0269",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0269.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0270",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0270.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0271",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0271.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0272",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0272.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0273",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0273.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0274",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0274.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0275",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0275.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0276",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0276.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0277",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0277.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0278",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0278.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0279",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0279.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0280",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0280.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0281",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0281.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0282",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0282.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0283",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0283.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0284",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0284.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0285",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0285.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0286",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0286.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0287",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0287.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0288",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0288.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0289",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0289.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0290",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0290.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0291",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0291.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0292",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0292.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0293",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0293.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0294",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0294.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0295",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0295.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0296",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0296.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0297",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0297.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0298",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0298.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0299",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0299.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0300",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0300.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0301",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0301.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0302",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0302.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0303",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0303.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0304",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0304.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0305",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0305.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0306",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0306.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0307",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0307.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0308",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0308.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0309",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0309.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0310",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0310.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0311",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0311.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0312",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0312.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0313",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0313.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0314",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0314.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0315",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0315.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0316",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0316.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0317",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0317.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0318",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0318.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0319",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0319.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0320",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0320.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0321",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0321.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0322",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0322.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0323",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0323.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0324",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0324.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0325",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0325.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0326",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0326.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0327",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0327.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0328",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0328.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0329",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0329.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0330",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0330.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0331",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0331.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0332",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0332.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0333",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0333.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0334",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0334.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0335",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0335.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0336",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0336.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0337",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0337.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0338",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0338.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0339",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0339.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0340",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0340.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0341",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0341.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0342",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0342.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0343",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0343.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0344",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0344.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0345",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0345.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0346",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0346.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0347",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0347.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0348",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0348.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0349",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0349.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0350",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0350.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0351",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0351.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0352",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0352.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0353",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0353.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0354",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0354.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0355",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0355.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0356",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0356.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0357",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0357.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0358",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0358.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0359",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0359.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0360",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0360.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0361",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0361.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0362",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0362.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0363",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0363.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0364",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0364.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0365",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0365.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0366",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0366.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0367",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0367.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0368",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0368.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0369",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0369.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0370",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0370.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0371",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0371.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0372",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0372.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0373",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0373.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0374",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0374.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0375",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0375.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0376",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0376.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "csrc_0377",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\html\\csrc_0377.html",
+    "ext": ".html"
+  },
+  {
+    "doc_id": "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "strict_v3_017_中华人民共和国反洗钱法",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_017_中华人民共和国反洗钱法.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）",
+    "domain": "regulatory",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\regulatory\\txt\\strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）.txt",
+    "ext": ".txt"
+  },
+  {
+    "doc_id": "text01",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text01.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text02",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text02.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text03",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text03.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text04",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text04.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text05",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text05.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text06",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text06.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text07",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text07.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text08",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text08.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text09",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text09.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text10",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text10.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text11",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text11.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text12",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text12.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text13",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text13.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "text14",
+    "domain": "financial_contracts",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_contracts\\text14.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_byd_2024_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_byd_2024_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_byd_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_byd_2025_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_catl_2024_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_catl_2024_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_catl_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_catl_2025_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_chinamobile_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_chinamobile_2025_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_cmb_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_cmb_2025_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_cscec_2024_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_cscec_2024_report.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_cscec_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_cscec_2025_report.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_midea_2024_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_midea_2024_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "annual_midea_2025_report",
+    "domain": "financial_reports",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\financial_reports\\annual_midea_2025_report.PDF",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text01",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text01.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text02",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text02.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text03",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text03.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text04",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text04.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text05",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text05.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text06",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text06.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text07",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text07.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text08",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text08.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text09",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text09.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text10",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text10.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text11",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text11.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text12",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text12.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text13",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text13.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text14",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text14.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text15",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text15.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text16",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text16.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text17",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text17.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text18",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text18.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text19",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text19.pdf",
+    "ext": ".pdf"
+  },
+  {
+    "doc_id": "pack2_text20",
+    "domain": "research",
+    "path": "D:\\public_dataset_a\\public_dataset_upload\\raw\\research\\pack2_text20.pdf",
+    "ext": ".pdf"
+  }
+]
